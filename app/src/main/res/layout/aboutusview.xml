@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/aboutUS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="This is a cookie clicker, the goal of the game is to gather cookies by clicking on the cookie icon in game . Once you hit start you will be taken to the game screen. On the game screen you must gather the cookies in order to buy upgrades. These upgrades help you gather cookies faster. The game can go on forever for endless fun! You can restart at any time by just going back to the start menu. "
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/backtointro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to main menu"
+        android:textSize="20sp" />
+</LinearLayout>

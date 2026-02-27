@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_weight="1"
+        android:text="Unlocked Upgrades:"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/unlock1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="💫💫You have unlocked the double clicker 💫💫"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/unlock2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="💫💫 You have unlocked the auto clicker!!💫💫"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/tocookieclicker"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_weight="1"
+        android:text="Back"
+        android:textSize="24sp" />
+
+</LinearLayout>
