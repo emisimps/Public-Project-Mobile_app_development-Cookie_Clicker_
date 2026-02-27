@@ -1,0 +1,16 @@
+The Google services.json file and a few potentially sensitive Firebase files were removed to protect my Firebase account, since this GitHub repository will be public and very loosely monitored.
+
+This may cause issues with anyone attempting to run this code, however it can be fixed by attaching your own database:
+
+Baseline database setup, with tasks to be added: 
+
+upgrades
+├── U1
+│   └── True (default)
+└── U2
+    └── True (default)
+
+
+I apologize for any inconvenience this may have caused. However, since this repository will not be monitored, I didn’t want to risk a potential issue or charges.
+
+Other than that, the Firebase implementation remains unchanged.
